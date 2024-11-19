@@ -13,6 +13,7 @@ s = 0
 for i in range(0,a):
     s=s+i
 print("The result is: ", s)
+
 # ____________________________________________
 
 ## While Loop
