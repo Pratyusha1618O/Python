@@ -31,3 +31,12 @@ print(course)
 
 course.pop(1)
 print(course)
+
+#______________________________________________
+
+b = [12,20,30]
+# b.clear()
+x = b.copy()
+b.reverse()
+b.sort()
+print(b)
