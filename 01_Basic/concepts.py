@@ -35,3 +35,9 @@ print(d[2])
 print(d)
 
 ## ()=> Tuple []=> List, {} => set, key mention => dictionary
+
+str = "My name is Rohit"
+print(str[11:16])
+
+dict = dict({"Product": "Mobile", "Price": 9000, "Quantity": 70})
+print(dict)
