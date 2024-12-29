@@ -41,3 +41,6 @@ print(str[11:16])
 
 dict = dict({"Product": "Mobile", "Price": 9000, "Quantity": 70})
 print(dict)
+
+str = "Hello world"
+print(str[1:4])
