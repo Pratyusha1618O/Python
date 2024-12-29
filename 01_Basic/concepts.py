@@ -44,3 +44,4 @@ print(dict)
 
 str = "Hello world"
 print(str[1:4])
+
