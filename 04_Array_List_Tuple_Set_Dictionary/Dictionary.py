@@ -109,3 +109,13 @@ for i in squares:
 
 #________________________________________________________
 
+# Dictionary Comprehension
+
+squares = {x: x*x for x in range(6)}
+print(squares)
+# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+#..................................
+# Even numbers from 1 to 50
+dict = {i for i in range(1,51) if (i%2 == 0)}
+print(dict)
