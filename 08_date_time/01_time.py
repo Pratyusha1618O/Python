@@ -8,5 +8,6 @@ x = time.asctime(time.localtime(time.time()))
 x_list = x.split()
 day = x_list[0]
 month = x_list[1]
+
 print(f"Day: {day}, Month: {month}")
 # Tue Jan 21 11:55:35 2025
