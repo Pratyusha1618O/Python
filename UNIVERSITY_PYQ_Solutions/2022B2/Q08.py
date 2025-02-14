@@ -12,9 +12,8 @@ def push(data):
     if(isFull()):
         print("Stack overflow, no insertion")
         return
-    for i in range(max): #let stack size is 5
+    else:
         stack.append(data)
-        return
 
 def pop():
     if(isEmpty()):
